@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+	box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+body {
+  font-size: 2.3rem;
+  background: #457fca;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #5691c8, #457fca);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #5691c8, #457fca); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.container {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+    row-gap: 30px;
+}
+
+.col-1 {
+    width: 16.6666%;
+    padding: 0 26px;
+}
+
+.col-3 {
+    width: 25%;
+    padding: 0 15px;
+}
+
+.col-4 {
+    padding: 0 15px;
+    width: 33.33333%;
+}
+
+.col-6 {
+    width: 50%;
+    padding: 0 15px;
+}
+
+.output{
+    display: flex;
+}
+.my__select{
+    width: 200px;
+    height: 28px;
+    font-size: 2.3rem;
+    margin: 50px auto;
+
+}
+
+.rndSlctSrtRow{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 20px;
+    /* font: 2.5rem bold; */
+}
+
+.tracksName,.tracksSalary,.tracksExpenses,.tracksDate{
+    border: 2px solid #457fca;
+}
